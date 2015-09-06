@@ -46,3 +46,7 @@ if no error you will get this log :
 Server listening at port 3000
 ```
 Finally you can try send message
+
+
+# Note !!
+I've disabled CSRF for specific routes. So if you want to use CSRF,you may modify your own.

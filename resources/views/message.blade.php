@@ -115,7 +115,8 @@
       $( "#load" ).show();
 
        var dataString = { 
-              id : $(this).attr('id')
+              id : $(this).attr('id'),
+              _token : '{{ csrf_token() }}'
             };
 
         $.ajax({

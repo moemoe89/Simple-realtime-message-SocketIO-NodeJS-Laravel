@@ -108,12 +108,13 @@
               name : $("#name").val(),
               email : $("#email").val(),
               subject : $("#subject").val(),
-              message : $("#message").val()
+              message : $("#message").val(),
+              _token : '{{ csrf_token() }}'
             };
 
         $.ajax({
             type: "POST",
-            url: "{{ URL::to('send/create') }}",
+            url: "",
             data: dataString,
             dataType: "json",
             cache : false,

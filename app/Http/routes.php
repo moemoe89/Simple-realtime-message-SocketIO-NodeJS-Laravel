@@ -14,6 +14,6 @@
 Route::get('/', function () {
     return view('send');
 });
-Route::post('send/create','SendController@postCreate');
+Route::post('/','SendController@postCreate');
 Route::get('message','MessageController@index');
 Route::post('message','MessageController@updateSeen');

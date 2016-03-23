@@ -48,6 +48,7 @@
 <div class="container">
   <div class="row">
     <div id="notif"></div>
+    <div class="clearfix"></div>
       <div class="col-md-6 col-md-offset-3">
         <div class="well well-sm">
           <form class="form-horizontal">
@@ -94,7 +95,7 @@
 <hr>
 {!! Html::script('js/jquery-1.11.2.min.js') !!}
 {!! Html::script('js/bootstrap.min.js') !!}
-{!! Html::script('node_modules/socket.io/node_modules/socket.io-client/socket.io.js') !!}
+{!! Html::script('node_modules/socket.io-client/socket.io.js') !!}
     <script>
   $(document).ready(function(){
 

@@ -48,6 +48,7 @@
 <div class="container">
   <div class="row">
     <div id="notif"></div>
+    <div class="clearfix"></div>
       <div class="col-md-6 col-md-offset-3">
         <div class="well well-sm">
           <form class="form-horizontal">
